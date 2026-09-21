@@ -2,7 +2,7 @@ const birthdayData = {
 
     celebrant_name: "Nel",
 
-    birthday: "2026-10-01",
+    birthday: "October 1, 2026",
 
     welcome_message:
         "Happy 18th Birthday, Nel! May this new chapter bring you happiness, beautiful memories, and many dreams coming true. ❤️",
@@ -165,7 +165,7 @@ const gallery = [
 
     {
         image: "assets/images/memories/gallery/c5.jpg",
-        caption: "A simple moment, but a memory we'll never forget. ❤️"
+        caption: "A simple moment in Silang Cavite. ❤️"
     },
 
     {
@@ -185,7 +185,7 @@ const gallery = [
 
     {
         image: "assets/images/memories/gallery/c9.jpg",
-        caption: "Another chapter in the memories we've shared together. ❤️"
+        caption: "Another photo with a same dress/shirt but different pose. ❤️"
     },
 
     {
