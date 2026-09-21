@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy 18th Birthday, Nel! 🎂</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ==================== WELCOME ==================== -->
+    <section id="welcome" class="section">
+        <div class="birthday-card">
+
+            <div class="cake">🎂</div>
+
+            <h1>Happy 18th Birthday!</h1>
+
+            <h2 id="celebrantName">Nel</h2>
+
+            <p id="birthdayDate"></p>
+
+            <p id="welcomeMessage"></p>
+
+            <button id="openGift">
+                🎁 Open Your Gift
+            </button>
+
+        </div>
+    </section>
+
+
+    <!-- ==================== MESSAGE ==================== -->
+    <section id="message-section" class="section hidden">
+
+        <div class="card">
+
+            <h2>💌 A Message For You</h2>
+
+            <p id="personalMessage"></p>
+
+            <button data-next="memories-section">
+                📸 See Our Memories
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================== MEMORIES ==================== -->
+    <section id="memories-section" class="section hidden">
+
+        <div class="card">
+
+            <h2>📸 Our Memories</h2>
+
+            <div id="memories-list" class="grid"></div>
+
+            <button data-next="wishes-section">
+                💌 Read Your 18 Wishes
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================== WISHES ==================== -->
+    <section id="wishes-section" class="section hidden">
+
+        <div class="card">
+
+            <h2>💌 18 Wishes For You</h2>
+
+            <div id="wishes-list" class="grid"></div>
+
+            <button data-next="gallery-section">
+                🖼️ Open Photo Gallery
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================== GALLERY ==================== -->
+    <section id="gallery-section" class="section hidden">
+
+        <div class="card">
+
+            <h2>🖼️ Photo Gallery</h2>
+
+            <div id="gallery-list" class="grid gallery"></div>
+
+            <button data-next="final-section">
+                🎉 Final Birthday Surprise
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================== FINAL ==================== -->
+    <section id="final-section" class="section hidden">
+
+        <div class="card final-card">
+
+            <div class="cake">🎉</div>
+
+            <h1>
+                Happy 18th Birthday, Nel! 🎉
+            </h1>
+
+            <p>
+                Welcome to a beautiful new chapter of your life.
+            </p>
+
+            <p class="signature">
+                Happy 18th Birthday, Daldalita! ❤️
+            </p>
+
+            <p>
+                — Kuya
+            </p>
+
+            <button id="celebrate">
+                🎉 Celebrate!
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================== MUSIC ==================== -->
+
+    <audio id="birthdayMusic" loop preload="auto">
+        <source
+            src="assets/music/Wildest_Dreams.mp3"
+            type="audio/mpeg">
+    </audio>
+
+    <button id="musicControl">
+        🔊
+    </button>
+
+
+    <!-- ==================== GIFT OVERLAY ==================== -->
+
+    <div id="giftOverlay" class="overlay hidden">
+
+        <div class="gift">
+            🎁
+        </div>
+
+    </div>
+
+
+    <!-- ==================== LIGHTBOX ==================== -->
+
+    <div id="lightbox" class="overlay hidden">
+
+        <button id="closeLightbox">
+            ✕
+        </button>
+
+        <img
+            id="lightboxImage"
+            src=""
+            alt="Birthday memory">
+
+        <p id="lightboxCaption"></p>
+
+    </div>
+
+
+    <!-- ==================== JAVASCRIPT ==================== -->
+
+    <script src="data/data.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
