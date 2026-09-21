@@ -2,7 +2,7 @@ const birthdayData = {
 
     celebrant_name: "Nel",
 
-    birthday: "October 1, 2026",
+    birthday: "10-01-2006",
 
     welcome_message:
         "Happy 18th Birthday, Nel! May this new chapter bring you happiness, beautiful memories, and many dreams coming true. ❤️",
